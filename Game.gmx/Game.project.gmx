@@ -5,9 +5,30 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
-  <backgrounds name="background"/>
+  <sprites name="sprites">
+    <sprite>sprites\spr_playBtn</sprite>
+    <sprites name="Game">
+      <sprite>sprites\spr_diologeBackground</sprite>
+    </sprites>
+  </sprites>
+  <backgrounds name="background">
+    <backgrounds name="Game">
+      <background>background\bg_blueTransparent</background>
+    </backgrounds>
+  </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\scr_gamecalculate.gml</script>
+  </scripts>
+  <objects name="objects">
+    <objects name="Menu">
+      <object>objects\obj_Play</object>
+    </objects>
+    <objects name="Game">
+      <object>objects\obj_diologeBackground</object>
+      <object>objects\obj_GameController</object>
+    </objects>
+  </objects>
   <rooms name="rooms">
     <room>rooms\GameHome</room>
     <room>rooms\Menu</room>
