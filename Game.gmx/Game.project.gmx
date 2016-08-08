@@ -19,6 +19,7 @@
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\scr_gamecalculate.gml</script>
+    <script>scripts\scr_itemCompats.gml</script>
   </scripts>
   <objects name="objects">
     <objects name="Menu">
