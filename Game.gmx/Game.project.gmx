@@ -6,7 +6,6 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-<<<<<<< HEAD
     <sprite>sprites\spr_playBtn</sprite>
     <sprites name="Game">
       <sprite>sprites\spr_diologeBackground</sprite>
@@ -29,36 +28,9 @@
     <objects name="Game">
       <object>objects\obj_diologeBackground</object>
       <object>objects\obj_GameController</object>
-=======
-    <sprites name="Start screen">
-      <sprite>sprites\spr_loadgamee</sprite>
-      <sprite>sprites\spr_newGame</sprite>
-      <sprite>sprites\spr_credits</sprite>
-      <sprite>sprites\spr_settings</sprite>
-      <sprite>sprites\spr_menuback</sprite>
-      <sprite>sprites\spr_background</sprite>
-    </sprites>
-  </sprites>
-  <backgrounds name="background">
-    <background>background\background_main</background>
-  </backgrounds>
-  <paths name="paths"/>
-  <fonts name="fonts">
-    <font>fonts\pixelfont</font>
-  </fonts>
-  <objects name="objects">
-    <objects name="Start screen">
-      <object>objects\obj_menuBack</object>
-      <object>objects\obj_loadGame</object>
-      <object>objects\obj_settings</object>
-      <object>objects\obj_newGame</object>
-      <object>objects\obj_credits</object>
-      <object>objects\obj_background</object>
->>>>>>> origin/master
     </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\Start_Menu</room>
     <room>rooms\GameHome</room>
     <room>rooms\Menu</room>
     <room>rooms\GameSettings</room>
