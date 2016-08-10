@@ -31,6 +31,7 @@
       <object>objects\obj_credits</object>
       <object>objects\obj_background</object>
     </objects>
+    <object>objects\object6</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Start_Menu</room>
@@ -38,6 +39,7 @@
     <room>rooms\Menu</room>
     <room>rooms\GameSettings</room>
     <room>rooms\About</room>
+    <room>rooms\NewGameSetup</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
