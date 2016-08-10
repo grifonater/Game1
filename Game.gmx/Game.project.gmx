@@ -6,30 +6,6 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-<<<<<<< HEAD
-    <sprite>sprites\spr_playBtn</sprite>
-    <sprites name="Game">
-      <sprite>sprites\spr_diologeBackground</sprite>
-    </sprites>
-  </sprites>
-  <backgrounds name="background">
-    <backgrounds name="Game">
-      <background>background\bg_blueTransparent</background>
-    </backgrounds>
-  </backgrounds>
-  <paths name="paths"/>
-  <scripts name="scripts">
-    <script>scripts\scr_gamecalculate.gml</script>
-    <script>scripts\scr_itemCompats.gml</script>
-  </scripts>
-  <objects name="objects">
-    <objects name="Menu">
-      <object>objects\obj_Play</object>
-    </objects>
-    <objects name="Game">
-      <object>objects\obj_diologeBackground</object>
-      <object>objects\obj_GameController</object>
-=======
     <sprites name="Start screen">
       <sprite>sprites\spr_loadgamee</sprite>
       <sprite>sprites\spr_newGame</sprite>
@@ -54,7 +30,6 @@
       <object>objects\obj_newGame</object>
       <object>objects\obj_credits</object>
       <object>objects\obj_background</object>
->>>>>>> origin/master
     </objects>
   </objects>
   <rooms name="rooms">
